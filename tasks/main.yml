@@ -4,7 +4,7 @@
     path: "{{ phpmyadmin_folder }}"
     owner: www-data
     group: www-data
-    mode: 0775
+    mode: 0755
     state: directory
   register: phpmyadmin_created
 
@@ -22,5 +22,5 @@
     dest: "{{ phpmyadmin_folder }}/config.inc.php"
     owner: www-data
     group: www-data
-    mode: 0755
+    mode: 0644
   when: phpmyadmin_created|changed
