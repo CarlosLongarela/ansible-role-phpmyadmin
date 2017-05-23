@@ -3,7 +3,7 @@ Ansible Role: PhpMyAdmin
 
 [![Build Status](https://travis-ci.org/CarlosLongarela/ansible-role-phpmyadmin.svg?branch=master)](https://travis-ci.org/CarlosLongarela/ansible-role-phpmyadmin)
 
-Install PhpMyAdmin with config file.
+Install PhpMyAdmin with config file and blowfish hash.
 
 Requirements
 ------------
