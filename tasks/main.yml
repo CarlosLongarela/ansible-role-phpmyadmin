@@ -22,5 +22,5 @@
     dest: "{{ phpmyadmin_folder }}/config.inc.php"
     owner: www-data
     group: www-data
-    mode: 0775
+    mode: 0755
   when: phpmyadmin_created|changed
