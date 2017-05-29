@@ -2,6 +2,8 @@ Ansible Role: PhpMyAdmin
 =========
 
 [![Build Status](https://travis-ci.org/CarlosLongarela/ansible-role-phpmyadmin.svg?branch=master)](https://travis-ci.org/CarlosLongarela/ansible-role-phpmyadmin)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/CarlosLongarela/ansible-role-phpmyadmin.svg)](http://isitmaintained.com/project/CarlosLongarela/ansible-role-phpmyadmin "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/CarlosLongarela/ansible-role-phpmyadmin.svg)](http://isitmaintained.com/project/CarlosLongarela/ansible-role-phpmyadmin "Average time to resolve an issue")
 
 Install PhpMyAdmin with config file and blowfish hash.
 
